@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProfile</title>
+    <style>
+        *, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-image {
+            max-width: 1000px; /* Atur ukuran maksimal gambar */
+            width: 100%;
+            height: auto; /* Menjaga aspek ratio gambar */
+            border-radius: 10px; /* Membuat sudut gambar melengkung */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Menambah bayangan halus */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img 
+            src="1.png" 
+            alt="myprofile" 
+            class="profile-image"
+        >
+    </div>
+</body>
+</html>
